@@ -1,0 +1,241 @@
+.container{
+    margin-left:50px;
+    margin-right:50px;
+}
+.firstContainer{
+    background-color: #1A1815;
+}
+.topHeading{
+  
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    height:50px;
+    background:#1A1815;
+    color:white;
+   
+}
+.search input[type="text"]{
+background: #1A1815;
+text-align: end;
+border:none;
+margin-right:10px;
+
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    opacity: 1; /* Firefox */
+}
+.fab{
+    margin-right: 5px;
+}
+.secondheading{
+    display:flex;
+    height:100px;
+    background: #1A1815;
+    justify-content: center;
+}
+.secondheading button{
+    background: no-repeat;
+    color:white;
+    border:none;
+    margin-right:30px;
+}
+.music-management-lifestyle{
+    display:grid;
+    height:500px;
+    grid-template-columns: 2fr 1fr;
+    margin-left: 30px;
+    margin-right: 30px;
+  
+
+}
+.music{
+    display:flex;
+    flex-direction: column;
+    grid-row: span 2;
+    background: url("/images/thumbs/featured/featured-guitarman.jpg");
+    background-size: cover;
+    justify-content: flex-end;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    color:white;
+    
+
+}
+#user-goog{
+  
+    background: url("/images/avatars/user-03.jpg");
+    background-size: cover;
+    height:50px;
+    width:50px;
+   border-radius: 50%;
+}
+
+.music button{
+    background: #46ABEF;
+    border:none;
+    color:white;
+    font-size: 10px;
+   padding:10px;
+  letter-spacing: 3px;
+}
+.message{
+    display:flex;
+    align-items: center;
+
+}
+.management{
+    background: url("/images/thumbs/featured/featured-watch.jpg");
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-bottom: 30px;
+    background-size: cover;
+    color:white;
+}
+.lifestyle{
+    background: url("/images/thumbs/featured/featured-beetle.jpg");
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-bottom: 30px;
+    background-size: cover;
+    color:white;
+}
+.manage-lifestyle-button{
+    background: #689B25;
+    border:none;
+    color:white;
+    font-size: 10px;
+    padding:10px;
+    letter-spacing: 3px;
+}
+.secondContainer{
+    background: #F2F1F2;
+}
+.secondContainerContent{
+ 
+  
+    margin-left:40px;
+    margin-right: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-top:30px;
+    grid-gap:20px;
+}
+.leftSideContent{
+    display:grid;
+    grid-gap: 20px;
+    height:70%;
+}
+.MiddleContent{
+    display:grid;
+    grid-gap: 20px;
+   
+}
+.rightSideContent{
+    display:grid;
+    grid-gap: 20px;
+    height:80%;
+   
+}
+
+.lamp img{
+    width:100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center ;
+  padding-bottom: 20px;
+ 
+}
+.leftmaterials{
+   background: white;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+.description{
+    display:flex;
+    flex-direction: column;
+    
+}
+.description div{
+    padding: 10px;
+}
+.beetleinfo{
+    display:flex;
+    padding:20px;
+    justify-content: center;
+}
+
+
+.page{
+    margin-top: 50px;
+    text-align: center;
+    padding-bottom: 50px;
+    letter-spacing: 10px;
+}
+
+.thirdContainer{
+    display:grid;
+    grid-template-rows: 80px 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+.material{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 100px 1fr;
+  
+}
+.point1{
+   grid-row: span 2; 
+   height:100px;
+   width:100px;
+   
+}
+.point1 img{
+    width:100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center ;
+}
+
+.PhilosophyContent{
+    display: grid;
+    justify-content: space-a
+}
+.tags{
+    margin-top: 50px;
+    width:100%;
+ 
+    display:flex;
+    flex-direction: column;
+  align-items: center;
+  
+}
+.choose{
+    margin-bottom: 10px;
+    
+}
+.choose button{
+    margin:5px;
+    border:none;
+    padding:7px;
+}
+.fifthContainer{
+    display:flex;
+    background: #1F1F21;
+    color:whitesmoke;
+    justify-content: space-between;
+}
+.all-links{
+    display: flex;
+    flex-basis: 70%;
+    justify-content: space-around
+}
+.check{
+    margin-bottom: 10px;
+}
